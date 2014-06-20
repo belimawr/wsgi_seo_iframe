@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='wsgi-seo-iframe',
-    version='0.1.0',
+    version='0.1.1',
     author='Tiago Queiroz',
     author_email='contato@tiago.eti.br',
     packages=['wsgi_seo_iframe'],
