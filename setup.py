@@ -9,7 +9,7 @@ setup(
     url='http://github',
     license='LICENSE.txt',
     description='WSGI middleware for replacing iframes by their html content, allowing them to be crowled by search engines',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         "wsgi-content-modifier",
         "werkzeug",
