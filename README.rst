@@ -9,7 +9,7 @@ usage on a django's WSGI script::
 
     import os
     from django.core.wsgi import get_wsgi_application
-    from wsgi_seo_iframe import IframeReplacerMiddleware
+    from wsgi_seo_iframe.iframereplacer import IframeReplacerMiddleware
 
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
 
